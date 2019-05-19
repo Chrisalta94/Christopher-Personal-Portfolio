@@ -106,9 +106,10 @@ span {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  overflow: auto;
 }
 .flex-grid .col {
-  width: 32%;
+  width: 30%;
 }
 .col {
   background: #fff;
@@ -116,7 +117,7 @@ span {
   padding: 20px;
   margin: 5px;
   border: 1px solid black;
-}
+  }
 /* projects end*/
 
 /* contact beginning*/
@@ -144,3 +145,25 @@ span {
   margin: 40px 10px 0 10px;
 }
 /* contact end*/
+
+/*MEDIA QUERIES*/
+/*tablets*/
+@media screen and (max-width: 768px) {
+.flex-grid .col{
+	width: 45%;
+}
+}
+/*mobile*/
+@media screen and (max-width: 480px) {
+.flex-grid .col{
+	width: 92%;
+	margin-left: 15px;
+}
+.text-wrapper h1{
+	font-size: 6vw;
+}
+h2 {
+	font-size: 5vw;
+}
+
+}

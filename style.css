@@ -15,20 +15,11 @@ nav {
 }
 .navContainer {
 	display: flex;
-	padding: 15px;
-	padding-left: 250px;
-	background-color: #66B1E8;
+	padding: 12px;
+	background-color: #708090;
 	list-style-type: none;
-}
-.containerTwo{
-	display: flex;
-	justify-content: flex-end;
-}
-li {
-	flex:1;
-}
-.info {
-	padding-right: 75px;
+	justify-content: space-around;
+	flex-wrap: wrap;
 }
 a {
 	color: black;
@@ -38,9 +29,40 @@ a:link {
   text-decoration: none;
 }
 a:hover{
-	color: #889199;
+	color: #fff;
 }	
 /* navbar end */
+
+/*IMAGE begin*/
+.content-wrapper img {
+	width: 100%;
+	background-image: url(img/nycImage.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.text-wrapper{
+	width: 100%;
+	position: relative;
+}
+.text-wrapper h1 {
+	text-align: center;
+	color: #fff;
+	font-size: 5vw;
+	position: absolute;
+	right: 15%;
+	left: 15%;
+	margin-top: 15%;
+}
+.text-wrapper-two {
+	text-align: center;
+	color: #fff;
+	position: absolute;
+	right: 15%;
+	left: 15%;
+	margin-top: 25%;
+}
+
+/*IMAGE end*/
 
 /* about beginning*/
 .main {
@@ -50,9 +72,9 @@ a:hover{
 	 align-items: center;﻿
 	width: 100%;
 	height: 29.5em;
-	background-color: #37A9BF;
+	background-color: #FDFDFD;
 }
-#about {
+.me {
 	font-size: 50px;
 	margin-bottom: 50px;
 }
@@ -74,9 +96,9 @@ span {
 	 align-items: center;﻿
 	width: 100%;
 	height: 31.5em;
-	background-color:#4AE1FF;
+	background-color:#FDFDFD;
 }
-#projects {
+.projDescription {
 	font-size: 50px;
 	margin-bottom: 50px;
 }
@@ -93,6 +115,7 @@ span {
   height: 12em;
   padding: 20px;
   margin: 5px;
+  border: 1px solid black;
 }
 /* projects end*/
 
@@ -104,11 +127,12 @@ span {
 	 align-items: center;﻿
 	width: 100%;
 	height: 31.6em;
-	background-color:#43CAE6;
+	background-color:#616161;
 }
-#contacts {
+.contactsDescription {
 	font-size: 50px;
 	margin-bottom: 50px;
+	color: #fff;
 }
 .social-media {
   top: 25px;

@@ -105,7 +105,8 @@ span {
 .flex-grid {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: ;
+  margin-left: 6.5%;
   overflow: auto;
 }
 .flex-grid .col {
@@ -152,12 +153,17 @@ span {
 .flex-grid .col{
 	width: 45%;
 }
+.text-wrapper h1{
+	font-size: 6vw;
+}
+h2 {
+	font-size: 5vw;
+}
 }
 /*mobile*/
 @media screen and (max-width: 480px) {
 .flex-grid .col{
 	width: 92%;
-	margin-left: 15px;
 }
 .text-wrapper h1{
 	font-size: 6vw;
@@ -165,5 +171,10 @@ span {
 h2 {
 	font-size: 5vw;
 }
-
+.navContainer li {
+	font-size: 6vw;
+}
+.description p {
+	font-size: 5vw;
+}
 }

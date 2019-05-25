@@ -45,7 +45,7 @@ a:hover{
 .text-wrapper h1{
 	text-align: center;
 	color: #fff;
-	font-size: 5vw;
+	font-size: 7vw;
 	word-spacing: 5px;
 }
 .text-wrapper-two {
@@ -147,7 +147,7 @@ span {
 	width: 45%;
 }
 .text-wrapper h1{
-	font-size: 6vw;
+	font-size: 8vw;
 }
 h2 {
 	font-size: 5vw;
@@ -159,10 +159,10 @@ h2 {
 	width: 92%;
 }
 .text-wrapper h1{
-	font-size: 8vw;
+	font-size: 7.5vw;
 }
 h2{
-	font-size: 6.5vw;
+	font-size: 5vw;
 }
 .navContainer li {
 	font-size: 6vw;

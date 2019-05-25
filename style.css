@@ -33,7 +33,7 @@ a:hover{
 }	
 /* navbar end */
 
-/*IMAGE begin*/
+/*HOME begin*/
 .content-wrapper {
 	display: flex;
 	 flex-direction: column;
@@ -54,7 +54,7 @@ a:hover{
 	word-spacing: 5px;
 }
 
-/*IMAGE end*/
+/*HOME end*/
 
 /* about beginning*/
 .main {
@@ -68,6 +68,7 @@ a:hover{
 .me {
 	font-size: 50px;
 	margin-bottom: 50px;
+	color: #fff;
 }
 .description{
 	width: 75%;
@@ -92,13 +93,12 @@ span {
 .projDescription {
 	font-size: 50px;
 	margin-bottom: 50px;
+	color: #fff;
 }
 .flex-grid {
   display: flex;
   flex-wrap: wrap;
-  justify-content: ;
-  margin-left: 6.5%;
-  overflow: auto;
+  justify-content: center;
 }
 .flex-grid .col {
   width: 30%;
@@ -159,10 +159,10 @@ h2 {
 	width: 92%;
 }
 .text-wrapper h1{
-	font-size: 6vw;
+	font-size: 8vw;
 }
-h2 {
-	font-size: 5vw;
+h2{
+	font-size: 6.5vw;
 }
 .navContainer li {
 	font-size: 6vw;
